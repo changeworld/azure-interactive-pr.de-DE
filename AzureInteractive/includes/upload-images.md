@@ -133,7 +133,7 @@ Zusätzlich zum Erstellen und Bearbeiten von Funktionen enthält das Azure-Porta
 
 1. Ändern Sie die **HTTP-Methode** in **GET**.
 
-1. Klicken Sie unter **Abfrage** auf *Parameter hinzufügen**, und fügen Sie den folgenden Parameter hinzu:
+1. Klicken Sie unter **Abfrage** auf *Parameter hinzufügen*\*, und fügen Sie den folgenden Parameter hinzu:
 
     | name      |  value   | 
     | --- | --- |
