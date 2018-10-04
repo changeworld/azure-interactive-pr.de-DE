@@ -2,19 +2,19 @@
 title: Includedatei
 description: Includedatei
 services: functions
-author: tdykstra
+author: ggailey777
 manager: jeconnoc
 ms.service: multiple
 ms.topic: include
 ms.date: 06/21/2018
-ms.author: tdykstra
+ms.author: glenga
 ms.custom: include file
-ms.openlocfilehash: 7e51d3cd0533b4fb64d7dfa783af55266d536f54
-ms.sourcegitcommit: e721422a57e6deb95245135fd9f4f5677c344d93
+ms.openlocfilehash: f51b864cab14273c1e88dd85d22400e0e76ef770
+ms.sourcegitcommit: 81587470a181e314242c7a97cd0f91c82d4fe232
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "40079497"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "47459996"
 ---
 An diesem Punkt ist die Anwendung eine funktionierende Galerie, die Ihnen das Hochladen und Anzeigen von Bildern ermöglicht. In diesem Modul wird beschrieben, wie Sie die Maschinelles Sehen-API von Microsoft Cognitive Services verwenden, um Bildtitel für hochgeladene Bilder zu generieren und die Bildtitel mit den Bildmetadaten in Cosmos DB zu speichern.
 

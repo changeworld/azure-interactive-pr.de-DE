@@ -2,19 +2,19 @@
 title: Includedatei
 description: Includedatei
 services: functions
-author: tdykstra
+author: ggailey777
 manager: jeconnoc
 ms.service: multiple
 ms.topic: include
 ms.date: 06/21/2018
-ms.author: tdykstra
+ms.author: glenga
 ms.custom: include file
-ms.openlocfilehash: d1f9a07ce3d3b096b498e48b5c4f68c3454b2b37
-ms.sourcegitcommit: e721422a57e6deb95245135fd9f4f5677c344d93
+ms.openlocfilehash: 426a7287458a48d1bda220ad1a5f067be2ce77d6
+ms.sourcegitcommit: 81587470a181e314242c7a97cd0f91c82d4fe232
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "40079487"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "47460040"
 ---
 Die Azure App Service-Authentifizierung ermöglicht in einer Azure-Funktions-App die Unterstützung der Authentifizierung ohne weiteren Einrichtungsaufwand. Sie kann nahtlos in Facebook, Twitter, ein Microsoft-Konto, Google und Azure Active Directory integriert werden. Sie fügen die App Service-Authentifizierung hinzu, um die Back-End-APIs für Ihre Web-App zu schützen.
 
@@ -30,10 +30,10 @@ Die Azure App Service-Authentifizierung ermöglicht in einer Azure-Funktions-App
     
     | Einstellung      |  Empfohlener Wert   | BESCHREIBUNG                                        |
     | --- | --- | ---|
-    | **App Service-Authentifizierung** | Ein | Aktiviert die Authentifizierung. |
+    | **App Service-Authentifizierung** | Andererseits | Aktiviert die Authentifizierung. |
     | **Aktion, wenn die Anforderung nicht authentifiziert ist** | Anmelden mit Azure Active Directory | Wählen Sie eine konfigurierte Authentifizierungsmethode aus (siehe unten). |
     | **Authentifizierungsanbieter** | Siehe unten | Siehe unten |
-    | **Tokenspeicher** | Ein | Ermöglicht App Service das Speichern und Verwalten von Token. |
+    | **Tokenspeicher** | Andererseits | Ermöglicht App Service das Speichern und Verwalten von Token. |
     | **Zulässige externe Umleitungs-URLs** | Die URL Ihrer Anwendung, z.B.: https://firstserverlessweb.z4.web.core.windows.net/ | URL(s), an die App Service umleiten darf, nachdem ein Benutzer authentifiziert wurde. |
 
 1. Wählen Sie **Azure Active Directory**, um die **Azure Active Directory-Einstellungen** anzuzeigen.

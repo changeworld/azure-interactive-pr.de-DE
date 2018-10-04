@@ -2,19 +2,19 @@
 title: Includedatei
 description: Includedatei
 services: functions
-author: tdykstra
+author: ggailey777
 manager: jeconnoc
 ms.service: multiple
 ms.topic: include
 ms.date: 06/21/2018
-ms.author: tdykstra
+ms.author: glenga
 ms.custom: include file
-ms.openlocfilehash: 88b0ac838dfa8e097a30cc6cef591377e4a95ad8
-ms.sourcegitcommit: e721422a57e6deb95245135fd9f4f5677c344d93
+ms.openlocfilehash: d19a9d0e7e0347b38fc16f85fa440281be5347f2
+ms.sourcegitcommit: 81587470a181e314242c7a97cd0f91c82d4fe232
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "40079355"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "47460080"
 ---
 Im vorherigen Modul wurde beschrieben, wie mit einer serverlosen Funktion das sichere Hochladen von Bildern in Blobspeicher aus einer Webanwendung möglich ist. In diesem Modul erstellen Sie eine weitere serverlose Funktion, um hochgeladene Bilder zu ermitteln und daraus Miniaturansichten zu erstellen.
 
@@ -104,7 +104,7 @@ Mit Bindungen wird definiert, wie eine Funktion das Lesen oder Schreiben von Dat
     
     1. (C#) Klicken Sie auf **Hinzufügen**, um eine neue Datei mit dem Namen **project.json** hinzuzufügen.
     
-    1. (C#) Kopieren Sie den Inhalt von [**/csharp/ResizeImage/project.json**](https://raw.githubusercontent.com/Azure-Samples/functions-first-serverless-web-application/master/csharp/ResizeImage/project.json) in die neu erstellte Datei. Speichern Sie die Datei. Pakete werden automatisch wiederhergestellt, wenn die Datei aktualisiert wird.
+    1. (C#) Kopieren Sie den Inhalt von [**/csharp/ResizeImage/project.json**](https://raw.githubusercontent.com/Azure-Samples/functions-first-serverless-web-application/master/csharp/ResizeImage/project.json) in die neu erstellte Datei. Speichern Sie die Datei . Pakete werden automatisch wiederhergestellt, wenn die Datei aktualisiert wird.
     
         ![Datei „project.json“ mit ImageResizer](media/functions-first-serverless-web-app/3-project-json.png)
     
