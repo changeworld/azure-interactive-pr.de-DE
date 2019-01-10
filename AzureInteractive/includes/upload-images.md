@@ -49,7 +49,7 @@ Für die Funktions-App in diesem Tutorial ist Version 1.x der Functions-Laufzeit
 Im folgenden Azure CLI-Befehl steht „<app_name>“ für den Namen Ihrer Funktions-App.
 
 ```azurecli
-az functionapp config appsettings set --name <function app name> --g first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
+az functionapp config appsettings set --name <function app name> -g first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
 ```
 
 ## <a name="create-an-http-triggered-serverless-function"></a>Erstellen einer per HTTP ausgelösten serverlosen Funktion
